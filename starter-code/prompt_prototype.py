@@ -17,7 +17,10 @@ from google import genai
 from google.genai import types
 
 # Standard Model Identifier
-GEMINI_MODEL = "gemini-2.5-flash"
+# Note: "gemini-2.5-flash" trả về 404 cho tài khoản Google AI Studio mới tạo
+# ("no longer available to new users"). Dùng alias "gemini-flash-latest" để
+# luôn trỏ đến bản Flash mới nhất mà key hiện có quyền truy cập.
+GEMINI_MODEL = "gemini-flash-latest"
 
 # ===========================================================================
 # 🛡️ Operational Boundaries to Enforce via System Prompt:
