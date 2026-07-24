@@ -5,8 +5,8 @@
 - **Tên nhóm:** [Khong thich dung AI]
 - **Thành viên:**
   - [Nguyễn Khắc Huy] — [2A202602036]
-  - [Ngô Khánh Trượng] — [2A220601477]
-  - [Nguyễn Thị Xuân Mai] — [2A220601691]
+  - [Ngô Khánh Trượng] — [2A202601477]
+  - [Nguyễn Thị Xuân Mai] — [2A202601691]
   - [Chu Thành Dũng] — [2A202601405]
   - [Nguyễn Quốc Hiệu] — [2A202601627]
   - [Nguyễn Xuân Phượng] — [2A202601874]
