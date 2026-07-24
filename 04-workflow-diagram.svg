@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+  <rect width="1600" height="980" fill="#f8fafc"/>
+  <text x="800" y="55" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#0f172a">Current-State Workflow — Xử lý xe Xanh SM gần hết pin</text>
+  <text x="800" y="92" text-anchor="middle" font-family="Arial" font-size="18" fill="#475569">Quy trình thủ công trước khi có AI | Tổng thời gian ước tính: 19 phút/lượt</text>
+
+  <g font-family="Arial" fill="#0f172a">
+    <rect x="55" y="180" width="220" height="260" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="165" y="220" text-anchor="middle" font-size="22" font-weight="bold">BƯỚC 1</text>
+    <text x="165" y="260" text-anchor="middle" font-size="20">Nhận báo cáo</text>
+    <text x="165" y="300" text-anchor="middle" font-size="16">Tài xế gọi/nhắn tin</text>
+    <text x="165" y="330" text-anchor="middle" font-size="16">biển số, pin, vị trí</text>
+    <text x="165" y="390" text-anchor="middle" font-size="19" font-weight="bold">⏱ 2 phút</text>
+
+    <rect x="330" y="180" width="220" height="260" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="440" y="220" text-anchor="middle" font-size="22" font-weight="bold">BƯỚC 2</text>
+    <text x="440" y="260" text-anchor="middle" font-size="20">Xác minh dữ liệu</text>
+    <text x="440" y="300" text-anchor="middle" font-size="16">Đối chiếu xe, cuốc</text>
+    <text x="440" y="330" text-anchor="middle" font-size="16">và tọa độ trên hệ thống</text>
+    <text x="440" y="390" text-anchor="middle" font-size="19" font-weight="bold">⏱ 3 phút</text>
+
+    <rect x="605" y="150" width="240" height="320" rx="16" fill="#fee2e2" stroke="#dc2626" stroke-width="5"/>
+    <text x="725" y="195" text-anchor="middle" font-size="22" font-weight="bold" fill="#991b1b">BƯỚC 3</text>
+    <text x="725" y="238" text-anchor="middle" font-size="20">Tìm phương án</text>
+    <text x="725" y="282" text-anchor="middle" font-size="16">Tra cứu trạm sạc</text>
+    <text x="725" y="312" text-anchor="middle" font-size="16">hoặc đội cứu hộ</text>
+    <text x="725" y="370" text-anchor="middle" font-size="19" font-weight="bold" fill="#991b1b">⏱ 6 phút</text>
+    <text x="725" y="420" text-anchor="middle" font-size="18" font-weight="bold" fill="#dc2626">🔴 BOTTLENECK</text>
+
+    <rect x="900" y="150" width="240" height="320" rx="16" fill="#fee2e2" stroke="#dc2626" stroke-width="5"/>
+    <text x="1020" y="195" text-anchor="middle" font-size="22" font-weight="bold" fill="#991b1b">BƯỚC 4</text>
+    <text x="1020" y="238" text-anchor="middle" font-size="20">Soạn hướng dẫn</text>
+    <text x="1020" y="282" text-anchor="middle" font-size="16">Viết tin nhắn địa điểm</text>
+    <text x="1020" y="312" text-anchor="middle" font-size="16">và bước tiếp theo</text>
+    <text x="1020" y="370" text-anchor="middle" font-size="19" font-weight="bold" fill="#991b1b">⏱ 4 phút</text>
+    <text x="1020" y="420" text-anchor="middle" font-size="18" font-weight="bold" fill="#dc2626">🔴 BOTTLENECK</text>
+
+    <rect x="1195" y="180" width="220" height="260" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="1305" y="220" text-anchor="middle" font-size="22" font-weight="bold">BƯỚC 5</text>
+    <text x="1305" y="260" text-anchor="middle" font-size="20">Duyệt và gửi</text>
+    <text x="1305" y="300" text-anchor="middle" font-size="16">Điều phối viên kiểm tra</text>
+    <text x="1305" y="330" text-anchor="middle" font-size="16">rồi gửi cho tài xế</text>
+    <text x="1305" y="390" text-anchor="middle" font-size="19" font-weight="bold">⏱ 2 phút</text>
+  </g>
+
+  <g stroke="#334155" stroke-width="4" fill="none">
+    <path d="M275 310 H330"/><path d="M550 310 H605"/><path d="M845 310 H900"/><path d="M1140 310 H1195"/>
+  </g>
+  <g fill="#334155">
+    <polygon points="330,310 315,301 315,319"/><polygon points="605,310 590,301 590,319"/><polygon points="900,310 885,301 885,319"/><polygon points="1195,310 1180,301 1180,319"/>
+  </g>
+  <text x="302" y="290" text-anchor="middle" font-family="Arial" font-size="15" fill="#475569">🔄 Handoff</text>
+  <text x="1170" y="290" text-anchor="middle" font-family="Arial" font-size="15" fill="#475569">🔄 Handoff</text>
+
+  <rect x="400" y="570" width="800" height="230" rx="18" fill="#fff" stroke="#64748b" stroke-width="2"/>
+  <text x="800" y="615" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#0f172a">BƯỚC 6 — Cập nhật log</text>
+  <text x="800" y="660" text-anchor="middle" font-family="Arial" font-size="18" fill="#334155">Ghi nguyên nhân, phương án và trạng thái xử lý</text>
+  <text x="800" y="710" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">⏱ 2 phút</text>
+  <text x="800" y="755" text-anchor="middle" font-family="Arial" font-size="17" fill="#475569">🔄 Handoff: thông tin từ điều phối viên sang hệ thống log</text>
+  <path d="M1305 440 V520 H800 V570" stroke="#334155" stroke-width="4" fill="none"/>
+  <polygon points="800,570 790,550 810,550" fill="#334155"/>
+
+  <rect x="470" y="865" width="660" height="58" rx="12" fill="#0f172a"/>
+  <text x="800" y="902" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#fff">🔴 Tổng bottleneck: Bước 3 + 4 = 10 phút/lượt</text>
+</svg>
